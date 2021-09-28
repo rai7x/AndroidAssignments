@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidAssignments</string>
+    <string name="app_name">宿題</string>
     <string name="hello_message">こんにちは</string>
-    <string name="ButtonText">I\’m a button</string>
+    <string name="ButtonText">ボタン</string>
+    <string name="LoginText">ログイン</string>
+    <string name="RadioButtonText">ラジオ</string>
+    <string name="CheckBoxText">チェックボックス</string>
+    <string name="SwitchText">なにこれ</string>
 </resources>
