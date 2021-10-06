@@ -17,15 +17,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/login_email"
         android:layout_width="match_parent"
         android:layout_height="10mm"
         android:hint="login name"
         android:inputType="textEmailAddress" />
 
     <EditText
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="10mm"
         android:hint="enter password"
         android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="10mm"
+        android:text="@string/LoginButtonText"
+        android:onClick="onLoginClicked"/>
 </LinearLayout>
 

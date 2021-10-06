@@ -15,13 +15,17 @@
         android:text="@string/RadioButtonText" />
 
     <CheckBox
+        android:id="@+id/check_box"
         android:layout_width="112dp"
         android:text="@string/CheckBoxText" />
     <Switch
+        android:id="@+id/switch_button"
         android:text="@string/SwitchText"
         />
 
     <ImageButton
+        android:id="@+id/camera_button"
+        android:onClick="imageClicked"
         android:src="@android:drawable/ic_menu_camera"
         android:layout_width="match_parent"
         />
