@@ -7,6 +7,8 @@
     <string name="CheckBoxText">CheckBox</string>
     <string name="SwitchText">What does this do?</string>
     <string name="LoginButtonText">Log In</string>
+    <string name="ChatButton">Start Chat</string>
+    <string name="SendButton">Send</string>
 
     <string name="email">Email:</string>
     <string name="email_hint">Your phone number here</string>

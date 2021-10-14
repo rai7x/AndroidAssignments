@@ -8,6 +8,8 @@
     <string name="CheckBoxText">チェックボックス</string>
     <string name="SwitchText">なにこれ</string>
     <string name="LoginButtonText">ログイン</string>
+    <string name="ChatButton">喋りスタート</string>
+    <string name="SendButton">贈る</string>
 
     <string name="email">メール:</string>
     <string name="email_hint">電話番号</string>

@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:rowCount="2"
     android:columnCount="2"
+    android:rowCount="2"
 
     tools:context=".ListItemsActivity">
 
@@ -18,15 +18,14 @@
         android:id="@+id/check_box"
         android:layout_width="112dp"
         android:text="@string/CheckBoxText" />
+
     <Switch
         android:id="@+id/switch_button"
-        android:text="@string/SwitchText"
-        />
+        android:text="@string/SwitchText" />
 
     <ImageButton
         android:id="@+id/camera_button"
-        android:onClick="imageClicked"
-        android:src="@android:drawable/ic_menu_camera"
         android:layout_width="match_parent"
-        />
+        android:onClick="imageClicked"
+        android:src="@android:drawable/ic_menu_camera" />
 </GridLayout>
