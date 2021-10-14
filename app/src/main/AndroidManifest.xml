@@ -18,14 +18,17 @@
         android:theme="@style/Theme.AndroidAssignments">
         <activity
             android:name=".ChatWindow"
+            android:parentActivityName="MainActivity"
             android:exported="true">
 
         </activity>
         <activity
             android:name=".ListItemsActivity"
+            android:parentActivityName="MainActivity"
             android:exported="true"></activity>
         <activity
             android:name=".LoginActivity"
+            android:parentActivityName="MainActivity"
             android:exported="true">
 
         </activity>
@@ -38,6 +41,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="MainActivity" />
     </application>
 
 </manifest>
