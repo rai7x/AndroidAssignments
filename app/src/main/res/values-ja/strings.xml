@@ -10,6 +10,8 @@
     <string name="LoginButtonText">ログイン</string>
     <string name="ChatButton">喋りスタート</string>
     <string name="SendButton">贈る</string>
+    <string name="ToolbarButton">テスト Toolbar</string>
+    <string name="some_title">戻りますか。</string>
 
     <string name="email">メール:</string>
     <string name="email_hint">電話番号</string>
@@ -25,7 +27,9 @@
     <string name="save_message">セーブしました</string>
     <string name="cancel_message">キャンセル</string>
     <string name="dialog_message">アクティビティを完了しますか。</string>
+    <string name="dialog_message_2">新しいメッセージを作ってください.</string>
     <string name="dialog_title">戻る</string>
+    <string name="dialog_title_2">新しいメッセージ</string>
     <string name="ok">はい</string>
     <string name="cancel">キャンセル</string>
 </resources>

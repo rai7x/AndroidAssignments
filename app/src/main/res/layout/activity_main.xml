@@ -32,7 +32,14 @@
         android:onClick="onChatClicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        />
 
+    <Button
+        android:id="@+id/toolbar_button"
+        android:text="@string/ToolbarButton"
+        android:onClick="onToolbarClicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         />
 
 </LinearLayout>

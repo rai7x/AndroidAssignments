@@ -31,6 +31,12 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(intent, 10);
     }
 
+    public void onToolbarClicked(View view) {
+        Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+        Intent intent = new Intent(this, TestToolbar.class);
+        startActivityForResult(intent, 10);
+    }
+
     public void onActivityResult(int requestCode, int responseCode, Intent data) {
         super.onActivityResult(requestCode, responseCode, data);
         if ((requestCode == 10) && (responseCode == Activity.RESULT_OK)) {

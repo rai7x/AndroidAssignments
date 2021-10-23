@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_one"
+        android:title="Choice One"
+        android:icon="@drawable/icons8_apple_pay_24"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_two"
+        android:title="Choice Two"
+        android:icon="@drawable/icons8_ok_24"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_three"
+        android:title="Choice Three"
+        android:icon="@drawable/icons8_t_shirt_24"
+        android:orderInCategory="3"
+        app:showAsAction="always" />
+    <item android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never"
+        />
+</menu>
